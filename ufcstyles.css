@@ -1,0 +1,1032 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-header {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 700px;
+    margin: 1em auto 4em;
+    padding: 0 1em;
+}
+
+.container-about {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.container-store {
+    max-width: 1200px;
+    margin: 4em auto;
+    padding: 0 1.5em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(104, 104, 105);
+    background-color: black;
+}
+
+.main-nav, nav{
+    display: flex;
+}
+
+/* Nav and Header Code */
+.main-nav ul {
+    margin: 0;
+    display: inline;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.nav-element {
+    flex: 1;
+}
+
+.nav-left {
+    margin: auto;
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.nav-right {
+    margin: auto;
+    padding-right: 40px;
+    text-align: right;
+    font-size: .8em;
+    padding: 0 5%;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+    font-weight:bolder;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.main-nav a:hover {
+    color: hwb(0 49% 51%);
+    transition: all 0.7s ease;
+}
+
+.nav-left a:hover {
+    color: white;
+}
+
+.main-header-home {
+    height: auto;
+}
+
+.main-header-about {
+    background-image: url("UFCimages/notoriousHeader.jpg");
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+.main-header-accolades {
+    background-image: url("UFCimages/accoladesHeader.jpg");
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+.main-header-record {
+    background-image: url("UFCimages/recordHeader.jpg");
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+.main-header-store {
+    background-image: url("UFCimages/storeHeader.png");
+    background-size: cover;
+    height: 550px;
+}
+
+.page-name {
+    text-align: center;
+    padding-top: 175px;
+    font-size: 4.5em;
+}
+
+/* CSS for the About Page */
+.about-section-one {
+    background-image: url("UFCimages/indexImage1.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+.about-section-two {
+    background-image: url("UFCimages/notoriousImage2.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+.about-section-three {
+    background-image: url("UFCimages/notoriousImage3.jpg");
+    filter: brightness(200%);
+    background-size: cover;
+    height: 650px;
+}
+
+.about-section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 4em;
+}
+
+.btn-mac {
+    position: relative;
+    left: 500px;
+    bottom: -10px;
+    color: white;
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 1.2em;
+    border: 2px solid rgb(0, 173, 86);
+    width: 200px;
+}
+
+.btn-mac:hover {
+    background-color: rgba(255, 255, 255, .2);
+    transition: all 0.7s ease;
+}
+
+.about-info-one {
+    margin-left: 200px;
+    padding-top: 75px;
+}
+
+.about-info-two{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, .6);
+    height: 450px;
+    width: 740px;
+    margin-left: 75px;
+}
+
+.seperator-one {
+    height: 50px;
+}
+
+.seperator-two {
+    height: 475px;
+}
+
+.about-info-two li {
+    margin: 20px 0;
+}
+
+/* Footer CSS Code */
+.main-footer {
+    background-color: rgb(51, 51, 51);
+    color: rgba(255, 255, 255, .6);
+    padding: 25px 50px 50px 50px;
+    border-top: 1px solid rgb(104, 104, 105);
+}
+.nav-container nav{
+    display: flex;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 20px 200px;
+    min-width: auto;
+    min-height: auto;
+}
+
+.nav-links a {
+    color: rgba(255, 255, 255, .6);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: rgb(124, 124, 124);
+    transition: all 0.7s ease;
+}
+
+/* This code doesnt change anything  */
+.nav-sponsors ul {
+    margin: 0;
+    display: inline;
+}
+
+.nav-sponsors li {
+    display: inline;
+    align-items: center;
+}
+
+
+.footer-nav li{
+    padding: 0 1em;
+    
+}
+
+.footer-nav img{
+    width: 120px;
+    height: 100px;
+    border-radius: 10%;
+    opacity: .8;
+    border: 2px solid black;
+}
+
+.footer-nav img:hover{
+    border: 2px solid rgb(124, 124, 124);
+    transition: all 0.7s ease;
+    opacity: 1;
+}
+.nav-right-container ul{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-header {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/* Record Page Code */
+body {
+    color: white;
+    background-color: black;
+}
+
+.record-row {
+    border-bottom: 1px solid rgb(75, 75, 75);
+    padding-bottom: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+.record-row:first-child {
+    border-bottom: 2px solid rgb(104, 104, 105)
+}
+
+.record-row:last-child {
+    border-bottom: none;
+}
+
+.record-item {
+    display: inline-block;
+    font-size: 1em;
+}
+
+.record-event {
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    padding-left: 20px;
+}
+
+.record-column-header {
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+    font-size: 1.2em;
+}
+
+.record-result {
+    width: 8%;
+}
+
+.record-opponent {
+    width: 25%;
+    padding-left: 50px;
+}
+
+.record-method {
+    width: 17%;
+    padding-left: 20px;
+}
+
+.record-current {
+    width: 9%;
+    padding-left: 20px;
+}
+
+.record-btn {
+    margin-left: 50px;
+    max-width: 18%;
+}
+
+.btn-primary {
+    color: gold;
+    background-color: black;
+    border: 1px solid gold;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: .8em;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: gold;
+    color: black;
+    transition: all 0.5s ease-in;
+}
+
+.btn-secondary {
+    color: black;
+    background-color: gold;
+    border: 1px solid transparent;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 217, 0, 0.6);
+}
+
+
+.record-header {
+    text-align: center;
+    margin: 50px auto 100px;
+    display: flex;
+    max-width: 800px;
+}
+
+.record-title-left, .record-title-middle, .record-title-right{
+    height: 250px;
+    width: 33.33%;
+}
+
+.record-title-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.record-number, .record-dash {
+    font-size: 9em;
+    margin: 0;
+}
+
+/* Code for Store Page */
+#storeheader {
+    width: cover;
+    background-color: transparent;
+    height: 1px;
+}
+
+.shop-item {
+    margin: 30px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 1.5em;
+    padding: 20px 30px 10px;
+    max-width: 100%;
+    position: relative;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    border: 2px solid black;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: black;
+    font-size: 1.2em;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.top-image {
+    position: absolute;
+    left: 30px;
+    top: 53px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.top-image:hover {
+    opacity: 1;
+}
+
+.store-header-section {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+
+/* Code for Cart */
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-image {
+    height: auto;
+    width: 75px;
+    border-radius: 10px;
+}
+
+.cart-item-title {
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid gold;
+    background-color: #eee;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid white;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin: 10px 110px 0;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    font-size: 1.3em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    color: black;
+    background-color: rgba(255, 217, 0, 0.8);
+    border: 1px solid transparent;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-purchase:hover {
+    background-color: gold;
+}
+
+.btn-purchase:focus {
+    background-color: green;
+}
+
+/* CODE FOR HOME PAGE */
+.home-main-container {
+    min-width: 1200px;
+}
+
+.home-container {
+    width: 1200px;
+    height: 450px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    border: 1px solid rgb(41, 41, 41);
+}
+
+
+.home-news, .home-store {
+    margin: 20px;
+    width: 50%;
+}
+
+.home-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, .8);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+.home-store-image {
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(104, 104, 105);
+    padding: 5px;
+}
+
+.home-section-btn {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 15px;
+}
+
+.btn-store {
+    font-size: 1em;
+    padding: 10px 40px;
+    border: 2px solid gold;
+    background-color: transparent;
+    margin: 15px auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.btn-store:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.home-news-details {
+    text-align: center;
+    margin-top: 10%;
+    color: rgba(255, 255, 255, .8);
+}
+
+#error-message {
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, .6);
+    border: 1px solid red;
+    line-height: 1.8em;
+    opacity: 0;
+}
+
+.home-news-input {
+    display: flex;
+    margin: 40px auto 30px;
+    height: 3em;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white
+}
+
+.error-message {
+    text-align: center;
+}
+
+input {
+    padding-left: 10px;
+}
+
+input:focus {
+    border: 2px solid white;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input::placeholder {
+    transition: color 0.5s ease;
+}
+
+.btn-news {
+    font-size: .75em;
+    font-weight: bold;
+    padding: 20px 35px;
+    background-color: rgb(255, 73, 73);
+    margin: 5px auto;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-news:hover {
+    background-color: rgba(255, 73, 73, .8);
+}
+
+.home-section-two {
+    display: flex;
+}
+
+.home-about-image {
+    width: 45%;
+}
+
+.home-about-info {
+    width: 55%;
+    background-color: black;
+    text-align: center;
+}
+
+.home-about-info p {
+    font-size: 1em;
+    margin: 5px 50px;
+    color: rgba(255, 255, 255, .8);
+}
+
+.home-about-info h2 {
+    margin-top: 150px;
+    font-size: 5em;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+}
+
+.home-about-btn {
+    font-size: 1em;
+    display: flex;
+    margin: 100px auto;
+    border: 2px solid red;
+    background-color: transparent;
+    color: red;
+    padding: 20px 30px;
+}
+
+.home-about-btn:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.home-section-three{
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+.home-section-three ul {
+    display: inline;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.home-title-three {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    text-align: center;
+    font-size: 1.75em;
+    color: rgba(255, 255, 255, .8);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home-media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.home-media li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.home-media img {
+    width: 24.5%;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CODE FOR ACHIEVEMENTS PAGE */
+.accolades-header-section {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin-bottom: 3em;
+    max-width: 1200px;
+    margin: 0 auto 3em;
+}
+
+.accolades-ufc {
+    margin-top: 3em;
+}
+
+.accolades-cw {
+    margin: 3em 0 6em;
+}
+
+.ufc-belt, .cw-belt{
+    display: flex;
+    border: 1px solid rgb(41, 41, 41);
+}
+
+
+.belt-image {
+    background-color: red;
+    width: 50%;
+    height: 550px;
+}
+
+.belt-image img {
+    height: 550px;
+    width: 100%;
+}
+
+.belt-info {
+    width: 50%;
+    height: 550px;
+    padding: 125px 5%;
+    text-align: center;
+}
+
+.belt-info-details {
+    text-align: left;
+    margin-top: 75px;
+    color: rgba(255, 255, 255, .8);
+}
+
+.belt-name {
+    font-size: 2em;
+    color: rgba(255, 215, 0, .9);
+    font-weight: bold;
+}
+
+/* CODE FOR CAROUSEL HOME PAGE */
+.home-section-header {
+    height: 700px;
+    padding-top: 50px;
+}
+
+.hi-slide {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    border-radius: 50px;
+    margin: 0 auto 0;
+    padding-bottom: 10px;
+
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .3);
+    transition: all 0.7s;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+    opacity: 1;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.hi-slide .hi-prev {
+    left: 200PX;
+}
+
+.hi-slide .hi-prev::before {
+    content: '<';
+}
+
+.hi-slide .hi-next {
+    right: 200px;
+}
+
+.hi-slide .hi-next::before {
+    content: '>';
+}
+
+.hi-slide > ul{
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+}
+
+.hi-slide > ul > li {
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.hi-slide > ul > li > div {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.hi-slide > ul > li > div > img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.carousel-details {
+    position: relative;
+    height: 250px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    top: 340px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+    left: 10px;
+}
+
+.carousel-info {
+    height: 66%;
+}
+
+.carousel-button {
+    margin-top: 10px;
+    height: 33%;
+}
+
+.carousel-details p {
+    margin: 20px auto 0;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 1em;
+    color: rgba(255, 255, 255, .7);
+}
+
+.carousel-one p {
+    margin-top: 10px;
+}
+
+.carousel-title{
+    font-size: 2.5em;
+    height: 33.3%;
+}
+
+#carousel-title-dystopia {
+    font-size: 1.9em;
+}
+
+.carousel-button-dystopia {
+    margin-top: 20px;
+}
+
+.carousel-btn {
+    padding: 15px 40px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-btn:hover {
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: all 0.3s;
+}
+
+.carousel-tidlimg {
+    height: 75px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.carousel-header {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-one {
+    background-image: url("UFCimages/carousel-img1.png");
+    background-size: cover;
+}
+
+.carousel-two {
+    background-image: url("UFCimages/carousel-img2.png");
+    background-size: cover;
+}
+
+.carousel-three {
+    background-image: url("UFCimages/carousel-img3.png");
+    background-size: cover;
+}
+
+.carousel-four {
+    background-image: url("UFCimages/carousel-img4.png");
+    background-size: cover;
+}
+
+.carousel-five {
+    background-image: url("UFCimages/carousel-img5.png");
+    background-size: cover;
+}
