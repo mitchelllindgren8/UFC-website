@@ -1006,6 +1006,13 @@ input::placeholder {
     align-items: center;
 }
 
+.store-section-six {
+    display: flex;
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+}
+
 .carousel-one {
     background-image: url("UFCimages/carousel-img1.png");
     background-size: cover;
