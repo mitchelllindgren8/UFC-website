@@ -1013,6 +1013,10 @@ input::placeholder {
     margin: 10px;
 }
 
+.store-section-six li{
+    font-size: large;
+}
+
 .carousel-one {
     background-image: url("UFCimages/carousel-img1.png");
     background-size: cover;
