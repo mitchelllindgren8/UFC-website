@@ -1013,6 +1013,10 @@ input::placeholder {
     margin: 10px;
 }
 
+.store-section-six-title {
+    color: red;
+}
+
 .store-section-six li{
     font-size: large;
 }
