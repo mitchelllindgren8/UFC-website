@@ -1017,6 +1017,11 @@ input::placeholder {
     color: red;
 }
 
+.store-section-six-title:hover {
+    color: white;
+    font-weight: bold;
+}
+
 .store-section-six li{
     font-size: large;
 }
