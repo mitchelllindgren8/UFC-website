@@ -1020,6 +1020,7 @@ input::placeholder {
 .store-section-six-title:hover {
     color: white;
     font-weight: bold;
+    font-size: 2em;
 }
 
 .store-section-six li{
