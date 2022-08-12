@@ -1015,6 +1015,7 @@ input::placeholder {
 
 .store-section-six-title {
     color: red;
+    border-bottom: 1px solid white;
 }
 
 .store-section-six-title:hover {
