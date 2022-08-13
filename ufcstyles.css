@@ -1023,6 +1023,7 @@ input::placeholder {
     font-weight: bold;
     font-size: 2em;
     text-decoration: none;
+    text-align: center;
 }
 
 .store-section-six li{
