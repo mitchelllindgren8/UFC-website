@@ -1025,6 +1025,7 @@ input::placeholder {
     font-size: 2em;
     text-decoration: none;
     text-align: center;
+    background-color: transparent;
 }
 
 .store-section-six li{
