@@ -1019,6 +1019,7 @@ input::placeholder {
     border-bottom: 1px solid white;
     margin: auto;
     padding-top: 10px;
+    padding-left: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
