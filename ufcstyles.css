@@ -1014,6 +1014,7 @@ input::placeholder {
 }
 
 .store-section-six-title {
+    justify-content: center;
     color: red;
     font-size: 2em;
     border-bottom: 1px solid white;
