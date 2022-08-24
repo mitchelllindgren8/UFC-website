@@ -1018,6 +1018,7 @@ input::placeholder {
     color: red;
     font-size: 2em;
     border-bottom: 1px solid white;
+    border-top: 1px solid white;
     margin-top: auto;
     margin-left: 100px;
     padding-top: 10px;
