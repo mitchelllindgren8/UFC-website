@@ -1026,6 +1026,10 @@ input::placeholder {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.container-side-spacing {
+    margin: 100px auto;
+}
+
 .store-section-six-title:hover {
     color: white;
     font-weight: bold;
