@@ -1029,6 +1029,7 @@ input::placeholder {
 .container-side-spacing {
     margin: 100px auto;
     padding-top: 1em;
+    padding-left: 2em;
 }
 
 .store-section-six-title:hover {
