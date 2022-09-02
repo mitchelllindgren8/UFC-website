@@ -19,5 +19,5 @@ UFC website project is an interactive site that features the career of the profe
 ____________________________________________________________
 
 UFC Website is a project to showcase my front-end web development skills using HTML, CSS, and JavaScript. 
-I created this project to challenge myself in order to learn new programming languages as well as 
-further grow my portfolio.
+I created this project to challenge myself in order to learn new programming languages, development tools,
+as well as grow my career portfolio.
