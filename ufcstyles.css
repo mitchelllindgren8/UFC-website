@@ -1033,7 +1033,6 @@ input::placeholder {
     max-width: 1000px;
     max-height: 500px;
     line-height: 0.5em;
-    justify-content: baseline;
 }
 
 .store-section-six-title:hover {
