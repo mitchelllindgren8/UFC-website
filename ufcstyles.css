@@ -986,7 +986,7 @@ input::placeholder {
     border: 1px solid rgba(255, 255, 255, .3);
     background-color: transparent;
     color: white;
-    font-weight: bold;
+    font-weight: large;
 }
 
 .carousel-btn:hover {
