@@ -1,4 +1,4 @@
-# UFC-website
+# UFC-Website
 UFC website project is an interactive site that features the career of the professional UFC athlete Conor McGregor.
 
 ## Features 
